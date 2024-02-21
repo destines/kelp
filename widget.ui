@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>138</width>
+    <height>189</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 700 10pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(31,31,31);</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>115</width>
+     <height>164</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>115</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>115</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="c_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>CPU    </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="g_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>GPU    :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="r_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>RAM   :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="v_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>VRAM :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="p_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>PWR   :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="h_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>HEAT  :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="f_label">
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>FPS     :</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
